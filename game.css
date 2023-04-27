@@ -1,0 +1,93 @@
+.rpsButton
+{
+     height: 150px;
+     width: 150px;
+     border-radius: 20%;
+     margin: 4%;
+     /* border: 4mm ridge rgba(211, 220, 50, .6); */
+     border: 5px solid;   
+}
+
+#endGameButton
+{
+    height:150px;
+    width:150px; 
+    border-radius: 20%;
+    position: absolute;top: 400px; 
+    background-color: transparent;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8Px0jE5skBDHYJzAxBsundPCA7SSUE1cIQ&usqp=CAU);
+    background-position-x: -52px ;
+    background-position-y: -27px;  
+}
+
+#myGame 
+{
+    
+    position: relative;top: 60px;
+}
+
+#rock
+{
+    background-color: transparent;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6l6fkyMnza5FstDckxsxyrYvNzonfudpKPXZcwSzmtMUsm5GJbejITxSN8TQCb5ZWWpE&usqp=CAU);
+    background-position-x: -46px ;
+    background-position-y: -62px;  
+    border-color: white;
+}
+
+#paper
+{
+    background-color: transparent;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXfjLpsEpTui0Bks4tCuuwzVfx_rljveI9Jj68PwdjAPSslu2h_ZN-FFkCngD2-X4OVk&usqp=CAU);
+    background-position-x: -34px ;
+    background-position-y: -61px;
+    border-color: white;
+}
+
+#scissor
+{
+    background-color: transparent;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296853__480.png);
+    background-position-x: -30px ;
+    background-position-y: -42px;
+    background-size: 200px;
+    border-color: white;
+}
+
+#player-score
+{
+position: absolute;top: 250px; left: ;
+}
+
+#hands
+{
+position: absolute;top: 280px; left: ;
+}
+
+#result
+{
+position: absolute;top: 310px; left: ;
+}
+
+#title
+{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(99, 236, 92); */
+    border-radius: 9vh 0vh;
+    border: thick double white;
+    color: rgb(238, 124, 10);
+}
+
+#na
+{
+    /* background-image: url(https://thumbs.dreamstime.com/b/kids-game-rock-paper-scissors-pattern-orange-background-134992635.jpg); */
+    background-color: black;
+}
+
+.wrapper
+{
+    color: white;
+    
+}
+
